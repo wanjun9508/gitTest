@@ -21,5 +21,8 @@ public class HelloController {
     public String test2() {
         return "test2";
     }
-
+    @RequestMapping("/test3")
+    public String test3() {
+        return "test3";
+    }
 }
