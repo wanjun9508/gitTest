@@ -14,7 +14,6 @@ public class HelloController {
         System.out.println("本地dev012代码提交dev2");
         System.out.println("本地m分支提交到dev");
         System.out.println("测试撤销合并");
-        System.out.println("测试合并commit message");
         return "Hello World2";
     }
 
