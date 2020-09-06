@@ -11,7 +11,8 @@ public class HelloController {
     public String index() {
         System.out.println("测试分支跟踪，主干修改了代码");
         System.out.println("测试分支跟踪，主干修改了代码");
-        System.out.println("测试分支跟踪，主干修改了代码2");
+        System.out.println("测试分支跟踪，主干修改了代码2020");
+        System.out.println("dev01 提交的新代码");
         return "Hello World2";
     }
 
