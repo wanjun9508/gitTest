@@ -9,7 +9,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String index() {
-        System.out.println("测试分支跟踪");
+        System.out.println("测试分支跟踪，主干修改了代码");
         return "Hello World2";
     }
 
