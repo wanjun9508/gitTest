@@ -10,7 +10,8 @@ public class HelloController {
     @RequestMapping("/hello")
     public String index() {
         System.out.println("测试分支跟踪，主干修改了代码");
-        System.out.println("新增的业务逻辑");
+        System.out.println("测试分支跟踪，主干修改了代码");
+        System.out.println("测试分支跟踪，主干修改了代码2");
         return "Hello World2";
     }
 
