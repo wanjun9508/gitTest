@@ -12,7 +12,7 @@ public class HelloController {
         System.out.println("测试分支跟踪，主干修改了代码");
         System.out.println("测试分支跟踪，主干修改了代码");
         System.out.println("测试分支跟踪，主干修改了代码2020");
-        System.out.println("dev01 提交的新代码");
+        System.out.println("dev01 提交的新代码，修改了");
         return "Hello World2";
     }
 
