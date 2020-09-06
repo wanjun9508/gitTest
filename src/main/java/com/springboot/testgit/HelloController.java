@@ -9,8 +9,10 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String index() {
-        System.out.println("dev01代码提交");
-        return "Hello World";
+        System.out.println("测试分支跟踪，主干修改了代码");
+        System.out.println("测试分支跟踪，主干修改了代码");
+        System.out.println("测试分支跟踪，主干修改了代码2");
+        return "Hello World2";
     }
 
     @RequestMapping("/test")
@@ -22,5 +24,8 @@ public class HelloController {
     public String test2() {
         return "test2";
     }
-
+    @RequestMapping("/test3")
+    public String test3() {
+        return "test3";
+    }
 }
