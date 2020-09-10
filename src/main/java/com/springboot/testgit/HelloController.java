@@ -15,6 +15,7 @@ public class HelloController {
         System.out.println("dev01 提交的新代码，修改了");
         System.out.println("dev01 测试代码");
         System.out.println("dev01 测试修改");
+        System.out.println("dev01 测试修改2");
         return "Hello World2";
     }
 
