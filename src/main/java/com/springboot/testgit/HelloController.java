@@ -9,15 +9,17 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String index() {
-        System.out.println("测试分支跟踪，主干修改了代码");
-        System.out.println("测试分支跟踪，主干修改了代码");
-        System.out.println("测试分支跟踪，主干修改了代码2020");
+        test6("测试分支跟踪，主干修改了代码", "测试分支跟踪，主干修改了代码", "测试分支跟踪，主干修改了代码2020");
         System.out.println("dev01 提交的新代码，修改了");
         System.out.println("dev01 测试代码");
-        System.out.println("dev01 测试修改");
-        System.out.println("dev01 测试修改2");
-        System.out.println("张三测试的代码修改");
+        test6("dev01 测试修改", "dev01 测试修改2", "张三测试的代码修改");
         return "Hello World2";
+    }
+
+    private void test6(String s, String s2, String 张三测试的代码修改) {
+        System.out.println(s);
+        System.out.println(s2);
+        System.out.println(张三测试的代码修改);
     }
 
     @RequestMapping("/test")
