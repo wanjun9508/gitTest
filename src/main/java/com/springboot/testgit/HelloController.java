@@ -23,7 +23,7 @@ public class HelloController {
 
     @RequestMapping("/test")
     public String test(@RequestParam String test) {
-        return "Hello World21231" +test;
+        return "Hello World2123166" +test;
     }
 
     @RequestMapping("/test2")
