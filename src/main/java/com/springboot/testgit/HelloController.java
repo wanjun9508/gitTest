@@ -16,9 +16,9 @@ public class HelloController {
         return "Hello World2";
     }
 
-    private void test6(String s, String s2, String 张三测试的代码修改) {
+    private void test6(String s, String s2, String s3) {
         System.out.println(s);
-        System.out.println(张三测试的代码修改);
+        System.out.println(s3);
     }
 
     @RequestMapping("/test")
