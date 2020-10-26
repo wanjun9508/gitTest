@@ -18,13 +18,12 @@ public class HelloController {
 
     private void test6(String s, String s2, String 张三测试的代码修改) {
         System.out.println(s);
-        System.out.println(s2);
         System.out.println(张三测试的代码修改);
     }
 
     @RequestMapping("/test")
     public String test(@RequestParam String test) {
-        return "Hello World2" +test;
+        return "Hello World21231" +test;
     }
 
     @RequestMapping("/test2")
