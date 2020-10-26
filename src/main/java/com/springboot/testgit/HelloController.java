@@ -24,7 +24,7 @@ public class HelloController {
 
     @RequestMapping("/test")
     public String test(@RequestParam String test) {
-        return "Hello World" +test;
+        return "Hello World2" +test;
     }
 
     @RequestMapping("/test2")
