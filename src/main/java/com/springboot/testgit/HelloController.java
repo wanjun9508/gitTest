@@ -16,6 +16,7 @@ public class HelloController {
         System.out.println("dev提交的新代码");
         System.out.println("测试新建分支");
         System.out.println("测试新建分支-提交的代码2025");
+        System.out.println("测试smartgit");
         return "Hello World2";
     }
 
